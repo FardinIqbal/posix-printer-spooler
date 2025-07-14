@@ -1,0 +1,40 @@
+bin/
+build/
+spool/
+test_output/
+*.o
+*.d
+*~
+*.out
+*.bak
+
+# Ignore IDE/editor folders
+.idea/
+*/.idea/
+
+# Ignore gmon profiling files
+**/sandbox-gmon.*
+
+# Ignore common build and debug artifacts
+*.o
+*.out
+*.hex
+*.seq
+*.log
+*.txt
+*.data
+*.dump
+*.profile
+
+# Ignore test artifacts and temp files
+hw2/actual.hex
+hw2/compress_*.txt
+hw2/compressed*
+hw2/decompressed*
+hw2/expected.hex
+hw2/my_output.seq
+hw2/nextr
+hw2/original.hex
+hw2/prevr*
+hw2/tests/inputs/*
+hw3/header
