@@ -1,4 +1,4 @@
-# posix-printer-spooler
+# Posix Printer Spooler
 
 A POSIX-compliant print spooler and job scheduler written in C, designed for Unix-based environments. It features job queuing, dynamic printer management, file-type conversion pipelines, and robust process control using Unix system calls and signal handling.
 
